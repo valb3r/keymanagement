@@ -26,6 +26,6 @@ deploy:
   -
     provider: script
     skip_cleanup: true
-    script: /bin/bash .travis/codecov_bash.sh
+    script: echo "Hello"
     on:
       jdk: openjdk8
