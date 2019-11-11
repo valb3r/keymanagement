@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "About to load coverage"
 BRANCH="$TRAVIS_BRANCH"
 if [[ -n "$TRAVIS_PULL_REQUEST_BRANCH" ]]; then
     BRANCH="$TRAVIS_PULL_REQUEST_BRANCH"
